@@ -4,12 +4,23 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Jose "Tony" Rayos</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700;900&family=Rajdhani:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="joseRayos.css">
 </head>
 <body>
   <header class="site-header">
-    <h1>Jose "Tony" Rayos</h1>
-    <a class="github-link" href="https://github.com/tony7464">GitHub</a>
+    <p class="header-label">// NETRUNNER PROFILE</p>
+    <div class="header-main">
+      <div class="header-identity">
+        <div class="profile-pic-wrap">
+          <img src="ProfilePic.jpg" class="profile-pic" alt="Jose Tony Rayos profile photo">
+        </div>
+        <h1>Jose "Tony" Rayos</h1>
+      </div>
+      <a class="github-link" href="https://github.com/tony7464" target="_blank" rel="noopener noreferrer">GitHub</a>
+    </div>
   </header>
 
   <main>
@@ -32,8 +43,16 @@
             <div class="project-text-cell cell">
               <h3 class="project-title">NailQue</h3>
               <p class="project-description">
-                A queue system for nail salons to use for their technicians that
-                helps manage their time and clients waiting.
+                A full-stack queue management system built for nail salons. NailQue
+                provides a live queue display for the waiting area, an employee portal
+                for technicians, and a mobile-friendly view clients can open via QR code.
+                Managers can assign walk-ins to techs, track completed services and
+                totals, manage staff, and protect settings with a PIN-protected admin flow.
+              </p>
+              <p class="project-description">
+                Built with Python and Flask, the app runs locally on salon hardware and
+                is packaged as installable desktop software for macOS and Windows, with
+                logging, shared state persistence, and GitHub-powered auto-updates.
               </p>
             </div>
             <div class="project-image-cell cell">
@@ -44,7 +63,16 @@
             <div class="project-text-cell cell">
               <h3 class="project-title">JavaScript Calculator</h3>
               <p class="project-description">
-                A simple calculator that can add, subtract, multiply, and divide.
+                A JavaScript calculator that implements addition, subtraction,
+                multiplication, and division as modular, reusable functions. The
+                divide operation includes guardrails that return a clear error when
+                dividing by zero instead of crashing or returning invalid results.
+              </p>
+              <p class="project-description">
+                The project also tracks a running calculation history—each operation
+                is logged with its operands and result, then printed to the console so
+                users can review past work. Built as a Flatiron lab exercise focused on
+                functions, control flow, and clean JavaScript fundamentals.
               </p>
             </div>
             <div class="project-image-cell cell">
